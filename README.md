@@ -1,22 +1,35 @@
 # IPL Win Probability Predictor
 
-This project predicts the win probability of IPL matches using Machine Learning.
+This project predicts the win probability of chasing teams in IPL matches using historical ball-by-ball IPL data.
 
-## Features Used
+It uses feature engineering techniques like:
 - Runs Left
 - Balls Left
 - Wickets Left
 
-## Model
-- Logistic Regression
-- Achieved ~69% accuracy
+The model is built using Logistic Regression for binary classification.
+
+---
+
+## Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+
+---
+
+## Model Details
+- Algorithm: Logistic Regression
+- Accuracy: ~69%
+- Train-Test Split validation used
+
+---
 
 ## How to Run
 
 1. Install required libraries:
-pip install pandas numpy scikit-learn
+   pip install pandas numpy scikit-learn
 
 2. Run the script:
-python3 project.py
-
-Author: Pavan Teja
+   python3 project.py
